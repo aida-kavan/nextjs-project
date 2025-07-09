@@ -2,7 +2,17 @@ import AcmeLogo from "@/app/ui/acme-logo";
 import { ArrowRightIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 import Image from "next/image";
+import postgres from "postgres";
 
+// (async () => {
+//   const sql = postgres("postgresql://postgres:postgres@localhost:5432/mylocaldb");
+//   try {
+//     const result = await sql`SELECT NOW()`;
+//     console.log("Connection test success:", result);
+//   } catch (err) {
+//     console.error("Connection error:", err);
+//   }
+// })();
 export default function Page() {
   return (
     <main className="flex min-h-screen flex-col p-6">
