@@ -15,7 +15,7 @@ async function listInvoices() {
   `;
 
 	return data;
-}
+}  
 
 export async function GET() {
  
