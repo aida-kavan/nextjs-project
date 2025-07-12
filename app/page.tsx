@@ -1,8 +1,7 @@
-import AcmeLogo from "@/app/ui/acme-logo";
+
 import { ArrowRightIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 import Image from "next/image";
-import postgres from "postgres";
 
 // (async () => {
 //   const sql = postgres("postgresql://postgres:postgres@localhost:5432/mylocaldb");
